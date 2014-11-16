@@ -1,6 +1,5 @@
 package com.sp.graph
 
-import com.sp.graph.DirectedEdge
 
 case class EdgeWeightedDiGraph(val V: Int, val E: Int) {
   

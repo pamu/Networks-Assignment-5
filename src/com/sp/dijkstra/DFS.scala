@@ -1,4 +1,4 @@
-package com.sp
+package com.sp.dijkstra
 
 import scala.collection.mutable.Stack
 

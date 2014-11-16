@@ -1,4 +1,4 @@
-package com.sp
+package com.sp.dijkstra
 
 import java.io.InputStream
 import java.util.Scanner

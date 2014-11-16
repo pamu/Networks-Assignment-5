@@ -1,4 +1,4 @@
-package com.sp
+package com.sp.dijkstra
 
 import scala.collection.mutable.Map
 
@@ -11,7 +11,7 @@ case class SP(g: EdgeWeightedDiGraph, source: Int) {
   for(i <- 0 until g.V) distTo(i) = Int.MaxValue
   
   
-  def dijsktra() {
+  def dijkstra() {
    distTo(source) = 0
    map += ((source, 0))
     while(!map.isEmpty) {

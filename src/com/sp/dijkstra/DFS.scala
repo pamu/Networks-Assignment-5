@@ -1,6 +1,7 @@
 package com.sp.dijkstra
 
 import scala.collection.mutable.Stack
+import com.sp.graph.EdgeWeightedDiGraph
 
 case class DFS(g: EdgeWeightedDiGraph) {
   val visited = new Array[Boolean](g.V)

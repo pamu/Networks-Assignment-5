@@ -1,6 +1,8 @@
 package com.sp.dijkstra
 
 import scala.collection.mutable.Map
+import com.sp.graph.EdgeWeightedDiGraph
+import com.sp.graph.DirectedEdge
 
 case class SP(g: EdgeWeightedDiGraph, source: Int) {
   val distTo = new Array[Int](g.V)
